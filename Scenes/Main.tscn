@@ -1,3 +1,9 @@
 [gd_scene format=3 uid="uid://de3jrx6eg1jmd"]
 
+[ext_resource type="Texture2D" uid="uid://dmnoitvuqb5hv" path="res://Assets/Sprites/Ball_default.png" id="1_r150o"]
+
 [node name="Main" type="Node2D" unique_id=1745171994]
+
+[node name="Player" type="Sprite2D" parent="." unique_id=668522318]
+position = Vector2(500, -500)
+texture = ExtResource("1_r150o")
